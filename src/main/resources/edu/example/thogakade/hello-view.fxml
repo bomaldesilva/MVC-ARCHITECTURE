@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="470.0" prefWidth="636.0" spacing="20.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.example.thogakade.Controller.Dashboard">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Label alignment="CENTER" prefHeight="50.0" prefWidth="236.0" text="Customer  Controller">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <FlowPane prefHeight="20.0" prefWidth="596.0" />
+      <JFXButton onAction="#btnOnClick" prefHeight="40.0" prefWidth="206.0" style="-fx-background-color: #bcddb6; -fx-background-radius: 14px;" text="Add Customers" />
+      <JFXButton layoutX="225.0" layoutY="225.0" onAction="#AddItemOnClick" prefHeight="40.0" prefWidth="206.0" style="-fx-background-color: #bcddb6; -fx-background-radius: 14px;" text="Add Item" />
+      <JFXButton layoutX="225.0" layoutY="195.0" onAction="#btnManageOnAction" prefHeight="40.0" prefWidth="206.0" style="-fx-background-color: #bcddb6; -fx-background-radius: 14px;" text="Manage Orders" />
+   </children>
+</VBox>
